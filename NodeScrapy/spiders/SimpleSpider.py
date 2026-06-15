@@ -20,8 +20,8 @@ class SimpleSpider(scrapy.Spider):
         "LOG_LEVEL": "INFO",
     }
     targets = (
+        "yudou66",
         "clashmeta",
-        "ndnode",
         "nodev2ray",
         "nodefree",
         "v2rayshare",
@@ -49,7 +49,7 @@ class SimpleSpider(scrapy.Spider):
         date = dt.date.today()
         if not link:
             return link, date
-        pattern = re.compile(r"(?:\d{4}[-年])?(\d{1,2})[-月](\d{1,2})")
+        pattern = re.compile(r"(?:\d{4}[-?])?(\d{1,2})[-?](\d{1,2})")
         for match in pattern.finditer(tag.get()):
             if not match:
                 continue
@@ -63,6 +63,10 @@ class SimpleSpider(scrapy.Spider):
 
     def closed(self, reason):
         pass
+
+    async def start(self):
+        for request in self.start_requests():
+            yield request
 
     def start_requests(self):
         for name, config in self.configs.items():

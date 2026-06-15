@@ -3,7 +3,7 @@
     "start_url": "https://www.yudou789.top/",
     "up_date": "2026-05-19",
     "selector": "div.item-thumbnail > a[target='_blank']",
-    "pattern": "https?://hh.yudou226.top/[^<>\\r\\n]+",
+    "pattern": "https?://hh.yudou226.top/[^<>\"'\\s]+",
     "password": "1122",
     "yt_idx": 0,
     "script": "var pwd = arguments[0]; var box = null; var attempts = 0; while (!box && attempts < 10) { box = document.querySelector('.cl-noindent-wrapper'); if (!box) { setTimeout(() => {}, 500); attempts++; } } if (box) { var input = box.querySelector('.cl-input'); var btn = box.querySelector('.cl-btn'); if (input && btn) { input.value = pwd; btn.click(); } }"
@@ -36,36 +36,36 @@
     "start_url": "https://clash-meta.github.io/",
     "up_date": "2025-10-13",
     "selector": "a[class='xcblog-blog-url']",
-    "pattern": "https?://node.freeclashnode.com/uploads/[^<>\\r\\n]+"
+    "pattern": "https?://node.freeclashnode.com/uploads/[^<>\"'\\s]+"
   },
   "ndnode": {
     "start_url": "https://www.naidounode.com/",
     "up_date": "2026-04-14",
     "selector": "a[class='text-reset']",
-    "pattern": "https?://naidounode.cczzuu.top/node/[^<>\\r\\n]+"
+    "pattern": "https?://naidounode.cczzuu.top/node/[^<>\"'\\s]+"
   },
   "nodev2ray": {
     "start_url": "https://nodev2ray.com/",
     "up_date": "2026-05-19",
     "selector": "a[class='list-image-box']",
-    "pattern": "https?://node.nodev2ray.com/uploads/[^<>\\r\\n]+"
+    "pattern": "https?://node.nodev2ray.com/uploads/[^<>\"'\\s]+"
   },
   "nodefree": {
     "start_url": "https://nodefree.me",
     "up_date": "2026-05-19",
     "selector": "a[class='text-reset']",
-    "pattern": "https?://node.nodefree.me/[^<>\\r\\n]+"
+    "pattern": "https?://node.nodefree.me/[^<>\"'\\s]+"
   },
   "v2rayshare": {
     "start_url": "https://v2rayshare.net/",
     "up_date": "2026-05-19",
     "selector": "a[class='text-reset']",
-    "pattern": "https?://static.v2rayshare.net/[^<>\\r\\n]+"
+    "pattern": "https?://static.v2rayshare.net/[^<>\"'\\s]+"
   },
   "wenode": {
-    "start_url": "https://wenode.cc/",
+    "start_url": "https://oneclash.cc/",
     "up_date": "2026-05-18",
     "selector": "a[class='post_def_left']",
-    "pattern": "https?://oss.oneclash.cc/[^<>\\r\\n]+"
+    "pattern": "https?://oss.oneclash.cc/[^<>\"'\\s]+"
   }
 }

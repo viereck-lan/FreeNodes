@@ -1,5 +1,6 @@
 # DecryptedSpider.py
 
+import datetime
 import itertools
 
 from selenium import webdriver
@@ -23,7 +24,6 @@ class DecryptSpider(SimpleSpider):
         "LOG_LEVEL": "INFO",
     }
     targets = (
-        "yudou66",
         "blues",
     )
     configs: dict[str, ConfigData]

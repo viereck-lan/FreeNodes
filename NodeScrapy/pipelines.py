@@ -21,6 +21,12 @@ class Pipeline:
     def open_spider(self, spider):
         if not os.path.exists(self.folder):
             os.mkdir(self.folder)
+        for target in getattr(spider, "targets", ()):
+            for ext in (".txt", ".yaml"):
+                path = os.path.join(self.folder, f"{target}{ext}")
+                if os.path.exists(path):
+                    os.remove(path)
+                    spider.logger.info(f"Pipeline removed stale {path}")
 
     def close_spider(self, spider):
         CONFIG.save()
