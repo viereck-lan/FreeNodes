@@ -31,6 +31,9 @@ EXTERNAL_YAML_SOURCES = {
     "itxve": "https://cdn.jsdelivr.net/gh/itxve/fetch-clash-node/node/ClashNode.yaml",
 }
 
+SELECT_GROUP = "\U0001f680 \u8282\u70b9\u9009\u62e9"
+AUTO_GROUP = "\u267b\ufe0f \u81ea\u52a8\u9009\u62e9"
+
 
 def _read_text(path):
     if not os.path.exists(path):
@@ -166,12 +169,12 @@ def _write_clash(proxies):
         "proxies": proxies,
         "proxy-groups": [
             {
-                "name": "?? ????",
+                "name": SELECT_GROUP,
                 "type": "select",
-                "proxies": ["?? ????", "DIRECT", *names],
+                "proxies": [AUTO_GROUP, "DIRECT", *names],
             },
             {
-                "name": "?? ????",
+                "name": AUTO_GROUP,
                 "type": "url-test",
                 "url": "http://www.gstatic.com/generate_204",
                 "interval": 300,
@@ -179,7 +182,7 @@ def _write_clash(proxies):
                 "proxies": names,
             },
         ],
-        "rules": ["MATCH,?? ????"],
+        "rules": [f"MATCH,{SELECT_GROUP}"],
     }
     with open(CLASH_OUTPUT_FILE, "w", encoding="utf-8") as file:
         yaml.safe_dump(data, file, default_flow_style=False, allow_unicode=True, sort_keys=False)
