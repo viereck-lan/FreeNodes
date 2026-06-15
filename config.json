@@ -13,7 +13,7 @@
     "up_date": "2026-02-03",
     "selector": "a[rel='bookmark']",
     "pattern": "https?://us1.zhuk.dpdns.org/[^<>\\r\\n]+",
-    "password": "1177",
+    "password": "6633",
     "yt_idx": 0,
     "script": "multiDecrypt(arguments[0]);"
   },
