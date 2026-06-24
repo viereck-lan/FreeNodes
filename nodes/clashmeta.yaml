@@ -4,182 +4,7 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点)
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 198.13.37.176
-  skip-cert-verify: true
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
 - name: 🇰🇷 韩国(yudou789.top 玉豆免费节点) 3
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 130.162.132.38
-  skip-cert-verify: true
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 🇰🇷 韩国(yudou789.top 玉豆免费节点) 4
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 211.49.57.178
-  skip-cert-verify: true
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 2053
-  server: 154.17.4.159
-  skip-cert-verify: true
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
-  network: ws
-  password: 257d8622-6701-4c98-a432-67a9696f58ae
-  port: 443
-  server: shazira.app
-  skip-cert-verify: true
-  sni: shazira.app
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: shazira.app
-    path: /Novan-ID9
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.creationlong.org
-    path: /assignment
-- name: 🇭🇰 香港(yudou789.top 玉豆免费节点)
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: true
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /
-- name: 🇰🇷 韩国(yudou789.top 玉豆免费节点) 6
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 211.49.57.179
-  skip-cert-verify: true
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国(yudou789.top 玉豆免费节点)
-  port: 1020
-  server: nlt.reata.ir
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
-- name: 🇰🇷 韩国(yudou789.top 玉豆免费节点) 7
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 211.49.57.161
-  skip-cert-verify: true
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
-  network: ws
-  port: 80
-  server: skk.moe
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841
-  ws-opts:
-    headers:
-      Host: accklsj.bufu.us.ci
-    path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess
-- name: 🇰🇷 韩国(yudou789.top 玉豆免费节点) 8
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -192,6 +17,119 @@ proxies:
     headers:
       Host: hhcm.hhxaf.cc.cd
     path: /
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 211.49.57.161
+  skip-cert-verify: true
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
+  port: 39497
+  server: 154.37.223.105
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0ffb24d9-30a4-4e11-f03e-53f6311f5ef4
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
+  port: 13221
+  server: 154.37.223.105
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a0d7636e-b973-4d6a-e6c3-c520d0b43a55
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
+  port: 31567
+  server: 154.37.223.105
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0db6217a-4ecd-4534-a3fb-ba23c798105d
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
+  port: 52080
+  server: 154.37.223.105
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 12513325-4464-4334-b811-7b047ebf40e7
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  port: 22926
+  server: 154.37.223.105
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1a8f32ce-387e-44fc-dde9-acb04f7613a6
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇻🇳 越南(yudou789.top 玉豆免费节点)
+  port: 49178
+  server: 160.250.247.70
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
 - alterId: 0
   cipher: auto
   name: 🇫🇷 法国(yudou789.top 玉豆免费节点)
@@ -207,12 +145,37 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
     path: /
-- cipher: aes-128-gcm
-  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 103.177.136.45
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 103.177.136.45
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 103.177.136.42
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 103.177.136.42
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
   udp: true
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
@@ -224,269 +187,19 @@ proxies:
   udp: true
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 103.177.136.45
+  port: 46424
+  server: 103.177.136.42
   skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
+  sni: de.01.naiun.bilibili.com
   type: trojan
   udp: true
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 103.177.136.42
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 18
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 103.177.136.42
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 19
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 103.177.136.45
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 20
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 103.177.136.42
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 21
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 103.177.136.45
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 22
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
   server: 103.177.136.45
   skip-cert-verify: true
   sni: az.01.naiun.bilibili.com
   type: trojan
-  udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 23
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 103.177.136.42
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 24
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 103.177.136.45
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 25
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 103.177.136.42
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 26
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 103.177.136.42
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 🇳🇱_NL_荷兰->🇺🇸_US_美国
-  network: ws
-  port: 2096
-  server: 188.42.88.238
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-- name: 🇧🇿_BZ_伯利兹
-  network: ws
-  port: 2096
-  server: 45.131.6.191
-  servername: sni.my111000.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.my111000.tech
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
-- name: 🇺🇸_US_美国
-  network: ws
-  port: 443
-  server: 135.84.73.245
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 🇧🇿_BZ_伯利兹_1
-  network: ws
-  port: 80
-  server: 45.131.4.192
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
-  ws-opts:
-    headers:
-      Host: silent-paper-fa57.fipiyag989.workers.dev
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇮_FI_芬兰
-  port: 18038
-  reality-opts:
-    public-key: UDLhjunZjP-5A6KBMeuWe3qp_FusLAshcQIcCF7EZh8
-    short-id: ce9f790791426d83
-  server: 144.31.82.47
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a42c8b66-d0a7-4b49-9143-b98f1c84edba
-- name: 🇺🇸_US_美国_1
-  network: ws
-  port: 443
-  server: 104.18.12.149
-  servername: S4-f45.pAGeS.DeV
-  tls: true
-  type: vless
-  udp: true
-  uuid: b60e5c32-3d4e-425c-a785-a36cd0621a72
-  ws-opts:
-    headers:
-      Host: S4-f45.pAGeS.DeV
-    path: /
-- name: 🇯🇵_JP_日本_1
-  network: ws
-  port: 443
-  server: 158.51.110.12
-  servername: pagescm.freen5.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen5.cc.cd
-    path: /showfp=chrome
-- name: 🇺🇸_US_美国_3
-  network: ws
-  port: 443
-  server: 104.17.101.139
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: /?proxyip=ip.111000.de5.net%3A443
-- cipher: chacha20-ietf
-  name: 🇭🇰_HK_中国香港
-  password: asd123456
-  port: 8388
-  server: 103.149.182.105
-  type: ss
-  udp: true
-- name: 🇰🇿_KZ_哈萨克斯坦
-  network: ws
-  port: 443
-  server: 31.43.179.238
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-- client-fingerprint: chrome
-  name: 🇺🇸_US_美国_4
-  network: ws
-  port: 2096
-  server: 139.64.235.238
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /
-- name: 🇺🇸_US_美国_5
-  network: ws
-  port: 2096
-  server: 45.153.7.191
-  servername: sni.my111000.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.my111000.tech
-- name: 🇺🇸_US_美国_6
-  network: ws
-  port: 443
-  server: 162.159.17.207
-  servername: sni.111000.v6.army
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.army
-    path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
-- name: 🇨🇾_CY_塞浦路斯
-  network: ws
-  port: 8880
-  server: 77.37.33.40
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime57.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- cipher: aes-128-gcm
-  name: 🇷🇺_RU_俄罗斯
-  password: 6784aee2-0dfe-474f-8446-480259ff9918
-  port: 442
-  server: ru.safepass.click
-  type: ss
   udp: true
 - client-fingerprint: chrome
   name: 🇹🇷_TR_土耳其
@@ -552,7 +265,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 🇰🇷_KR_韩国_2
+  name: 🇰🇷_KR_韩国
   network: ws
   port: 443
   server: 211.49.57.175
@@ -717,109 +430,6 @@ proxies:
     headers:
       Host: twotwoirvz.dpdns.org
     path: /
-- name: 🇯🇵 JP日本(mibei77.com 米贝节点分享)
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 18.182.54.28
-  skip-cert-verify: true
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享)
-  port: 31567
-  server: 154.37.223.105
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0db6217a-4ecd-4534-a3fb-ba23c798105d
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享) 2
-  port: 13221
-  server: 154.37.223.105
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a0d7636e-b973-4d6a-e6c3-c520d0b43a55
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享) 3
-  port: 52080
-  server: 154.37.223.105
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 12513325-4464-4334-b811-7b047ebf40e7
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享) 4
-  port: 39497
-  server: 154.37.223.105
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0ffb24d9-30a4-4e11-f03e-53f6311f5ef4
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享) 5
-  port: 22926
-  server: 154.37.223.105
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1a8f32ce-387e-44fc-dde9-acb04f7613a6
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享) 6
-  port: 52080
-  server: 154.37.223.56
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享) 7
-  port: 13659
-  server: 154.37.223.56
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 137fcb24-2538-49ef-ce1e-329ebe5edcbe
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK香港(mibei77.com 米贝节点分享) 8
-  port: 43203
-  server: 154.37.223.56
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 68bd04a1-0547-46a6-cdb2-c8ac3fce1e67
-- alterId: 0
-  cipher: auto
-  name: 🇻🇳 越南(mibei77.com 米贝节点分享)
-  port: 49178
-  server: 160.250.247.70
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394
 - type: vless
   name: 美國_1
   server: www.speedtest.net
@@ -842,6 +452,16 @@ proxies:
   skip-cert-verify: true
   network: tcp
   servername: ficdn19.suio.me
+  tls: true
+  udp: true
+- type: vless
+  name: 美國_8
+  server: 144.31.1.167
+  port: 443
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+  skip-cert-verify: true
+  network: tcp
+  servername: plcdn14.suio.me
   tls: true
   udp: true
 - type: vless
@@ -918,57 +538,33 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
   - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 3
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 6
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 7
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 8
+  - 🇻🇳 越南(yudou789.top 玉豆免费节点)
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
   - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 18
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 19
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 20
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 21
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 22
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 23
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 24
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 25
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 26
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-  - 🇧🇿_BZ_伯利兹
-  - 🇺🇸_US_美国
-  - 🇧🇿_BZ_伯利兹_1
-  - 🇫🇮_FI_芬兰
-  - 🇺🇸_US_美国_1
-  - 🇯🇵_JP_日本_1
-  - 🇺🇸_US_美国_3
-  - 🇭🇰_HK_中国香港
-  - 🇰🇿_KZ_哈萨克斯坦
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇨🇾_CY_塞浦路斯
-  - 🇷🇺_RU_俄罗斯
   - 🇹🇷_TR_土耳其
   - 🇵🇱_PL_波兰->🇺🇸_US_美国
   - 🇷🇴_RO_罗马尼亚
   - 🇳🇱_NL_荷兰
   - 🇷🇴_RO_罗马尼亚_1
   - 🇳🇱_NL_荷兰_1
-  - 🇰🇷_KR_韩国_2
+  - 🇰🇷_KR_韩国
   - 🇳🇱_NL_荷兰_2
   - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
   - 🇸🇪_SE_瑞典
@@ -983,18 +579,9 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_6
   - 🇳🇱_NL_荷兰_7
   - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇯🇵 JP日本(mibei77.com 米贝节点分享)
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 2
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 3
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 4
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 5
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 6
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 7
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 8
-  - 🇻🇳 越南(mibei77.com 米贝节点分享)
   - 美國_1
   - 美國_4
+  - 美國_8
   - 哈薩克_1
   - 波蘭_5
   - 美國_24
@@ -1007,57 +594,33 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
   - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 3
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 6
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 7
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 8
+  - 🇻🇳 越南(yudou789.top 玉豆免费节点)
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
   - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 18
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 19
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 20
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 21
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 22
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 23
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 24
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 25
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 26
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-  - 🇧🇿_BZ_伯利兹
-  - 🇺🇸_US_美国
-  - 🇧🇿_BZ_伯利兹_1
-  - 🇫🇮_FI_芬兰
-  - 🇺🇸_US_美国_1
-  - 🇯🇵_JP_日本_1
-  - 🇺🇸_US_美国_3
-  - 🇭🇰_HK_中国香港
-  - 🇰🇿_KZ_哈萨克斯坦
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇨🇾_CY_塞浦路斯
-  - 🇷🇺_RU_俄罗斯
   - 🇹🇷_TR_土耳其
   - 🇵🇱_PL_波兰->🇺🇸_US_美国
   - 🇷🇴_RO_罗马尼亚
   - 🇳🇱_NL_荷兰
   - 🇷🇴_RO_罗马尼亚_1
   - 🇳🇱_NL_荷兰_1
-  - 🇰🇷_KR_韩国_2
+  - 🇰🇷_KR_韩国
   - 🇳🇱_NL_荷兰_2
   - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
   - 🇸🇪_SE_瑞典
@@ -1072,18 +635,9 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_6
   - 🇳🇱_NL_荷兰_7
   - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇯🇵 JP日本(mibei77.com 米贝节点分享)
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享)
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 2
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 3
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 4
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 5
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 6
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 7
-  - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 8
-  - 🇻🇳 越南(mibei77.com 米贝节点分享)
   - 美國_1
   - 美國_4
+  - 美國_8
   - 哈薩克_1
   - 波蘭_5
   - 美國_24
