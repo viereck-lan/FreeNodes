@@ -8,44 +8,118 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国(yudou789.top 玉豆免费节点)
-  network: ws
-  port: 443
-  server: 221.204.41.88
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点)
+  password: 29a97a3d-e429-499d-8693-b539c349b6bd
+  port: 22189
+  server: ss.012.node-for-bigairport.win
+  type: ss
   udp: true
-  uuid: 1c503beb-4589-409b-bddf-5190925f72f0
-  ws-opts:
-    headers:
-      Host: speeches-obligations-view-epinions.trycloudflare.com
-    path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
+  password: 29a97a3d-e429-499d-8693-b539c349b6bd
+  port: 13006
+  server: ss.020.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
+  password: 29a97a3d-e429-499d-8693-b539c349b6bd
+  port: 11688
+  server: ss.006.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
+  password: 29a97a3d-e429-499d-8693-b539c349b6bd
+  port: 11688
+  server: ss.005.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
+  password: 29a97a3d-e429-499d-8693-b539c349b6bd
+  port: 23888
+  server: ss.008.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
+  password: 29a97a3d-e429-499d-8693-b539c349b6bd
+  port: 15099
+  server: ss.013.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
+  password: 29a97a3d-e429-499d-8693-b539c349b6bd
+  port: 13001
+  server: ss.015.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  password: 29a97a3d-e429-499d-8693-b539c349b6bd
+  port: 13004
+  server: ss.016.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  password: 29a97a3d-e429-499d-8693-b539c349b6bd
+  port: 19287
+  server: ss.021.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
+  password: 29a97a3d-e429-499d-8693-b539c349b6bd
+  port: 29004
+  server: ss.022.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇯🇵 日本(yudou789.top 玉豆免费节点) 3
+  password: 29a97a3d-e429-499d-8693-b539c349b6bd
+  port: 12099
+  server: ss.024.node-for-bigairport.win
+  type: ss
+  udp: true
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点)
+  port: 0
+  server: '@...'
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+- name: 🇯🇵 日本(yudou789.top 玉豆免费节点) 4
+  port: 0
+  server: '@...'
+  skip-cert-verify: true
+  type: socks5
+  udp: true
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
   port: 0
   server: '@...'
   skip-cert-verify: true
   type: socks5
   udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
-  port: 0
-  server: '@...'
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
+  port: 26350
+  server: gzydv2.badns.help
   skip-cert-verify: true
-  type: socks5
+  tls: false
+  type: vmess
   udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  port: 0
-  server: '@...'
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+- name: 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  password: UZ15382649
+  port: 443
+  server: moral-dolphin.rooster465.autos
   skip-cert-verify: true
-  type: socks5
-  udp: true
-- name: 🇰🇷 韩国(yudou789.top 玉豆免费节点)
-  port: 0
-  server: T2clM0QlM0Q6@...
-  skip-cert-verify: true
-  type: socks5
+  sni: moral-dolphin.rooster465.autos
+  type: trojan
   udp: true
 - name: 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
   port: 0
@@ -53,62 +127,7 @@ proxies:
   skip-cert-verify: true
   type: socks5
   udp: true
-- name: 🇰🇷 韩国(yudou789.top 玉豆免费节点) 2
-  port: 0
-  server: '@...'
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-- name: 🇰🇷 韩国(yudou789.top 玉豆免费节点) 3
-  port: 0
-  server: '@...'
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-- name: 🇩🇪 德国(yudou789.top 玉豆免费节点)
-  password: IQ68037294
-  port: 443
-  server: glad-javelin.rooster465.autos
-  skip-cert-verify: true
-  sni: glad-javelin.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇩🇪 德国(yudou789.top 玉豆免费节点) 2
-  password: IQ68037294
-  port: 443
-  server: enabling-gobbler.rooster465.autos
-  skip-cert-verify: true
-  sni: enabling-gobbler.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
-  port: 0
-  server: '@...'
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-- name: 🇫🇷 法国(yudou789.top 玉豆免费节点)
-  password: IQ68037294
-  port: 443
-  server: correct-pony.rooster465.autos
-  skip-cert-verify: true
-  sni: correct-pony.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
   network: ws
   password: humanity
   port: 443
@@ -121,39 +140,18 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇯🇵 日本(yudou789.top 玉豆免费节点)
-  password: IQ68037294
-  port: 443
-  server: flexible-pony.rooster465.autos
-  skip-cert-verify: true
-  sni: flexible-pony.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
-  network: ws
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  port: 443
-  server: blackshadow.dpdns.org
-  skip-cert-verify: true
-  sni: support.zoom.us.blackshadow.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: support.zoom.us.blackshadow.dpdns.org
-    path: /195.123.218.174-443
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
   network: ws
   password: humanity
   port: 443
   server: 165.215.250.14
   skip-cert-verify: true
-  sni: www.creationlong.org
+  sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.creationlong.org
+      Host: www.calmlunch.com
     path: /assignment
 - name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
   network: ws
@@ -168,7 +166,7 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -181,21 +179,7 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
-  port: 0
-  server: '@...'
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-- name: 🇰🇷 韩国(yudou789.top 玉豆免费节点) 4
-  password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
-  port: 56127
-  server: 154.90.62.70
-  skip-cert-verify: true
-  sni: 154.90.62.70
-  type: trojan
-  udp: true
-- name: 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 3
+- name: 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -208,6 +192,35 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
+  password: CF68213490
+  port: 443
+  server: 18.184.4.15
+  skip-cert-verify: true
+  sni: harmless-lab.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
+  password: CF68213490
+  port: 443
+  server: harmless-lab.rooster465.autos
+  skip-cert-verify: true
+  sni: harmless-lab.rooster465.autos
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
@@ -221,127 +234,44 @@ proxies:
   uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
   ws-opts:
     path: /0zNW56sF
-- name: 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
-  password: IQ68037294
-  port: 443
-  server: endless-kiwi.rooster465.autos
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
+  port: 53168
+  server: lt.badns.help
   skip-cert-verify: true
-  sni: endless-kiwi.rooster465.autos
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 2
-  password: IQ68037294
-  port: 443
-  server: full-mackerel.rooster465.autos
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
+  port: 51360
+  server: lt.badns.help
   skip-cert-verify: true
-  sni: full-mackerel.rooster465.autos
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 3
-  password: IQ68037294
-  port: 443
-  server: apt-midge.rooster465.autos
-  skip-cert-verify: true
-  sni: apt-midge.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 4
-  password: IQ68037294
-  port: 443
-  server: still-mastodon.rooster465.autos
-  skip-cert-verify: true
-  sni: still-mastodon.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 5
-  password: IQ68037294
-  port: 443
-  server: humane-hawk.rooster465.autos
-  skip-cert-verify: true
-  sni: humane-hawk.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 6
-  password: IQ68037294
-  port: 443
-  server: happy-mutt.rooster465.autos
-  skip-cert-verify: true
-  sni: happy-mutt.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 7
-  password: IQ68037294
-  port: 443
-  server: casual-stallion.rooster465.autos
-  skip-cert-verify: true
-  sni: casual-stallion.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 8
-  password: IQ68037294
-  port: 443
-  server: proud-escargot.rooster465.autos
-  skip-cert-verify: true
-  sni: proud-escargot.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 9
-  password: IQ68037294
-  port: 443
-  server: helpful-possum.rooster465.autos
-  skip-cert-verify: true
-  sni: helpful-possum.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 10
-  password: IQ68037294
-  port: 443
-  server: prepared-turkey.rooster465.autos
-  skip-cert-verify: true
-  sni: prepared-turkey.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 11
-  password: IQ68037294
-  port: 443
-  server: giving-bird.rooster465.autos
-  skip-cert-verify: true
-  sni: giving-bird.rooster465.autos
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
-  password: gaM3vd5zfR1ay1v7hfn4X6
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
-  password: ebEfGowZtV1BEFXZOtgAXi
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
-  password: a172cf0d-ae89-42f3-8505-0c51dae293a1
-  port: 443
-  server: 8.210.171.48
-  type: ss
-  udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.34
+  server: 104.17.121.71
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.177.143
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -350,11 +280,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.34
+  server: 104.16.174.71
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -363,105 +293,92 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
-  password: IQ68037294
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
+  network: ws
+  password: humanity
   port: 443
-  server: dear-ferret.rooster465.autos
+  server: 198.62.62.23
   skip-cert-verify: true
-  sni: dear-ferret.rooster465.autos
+  sni: www.calmlunch.com
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: //assignment
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
+  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 2
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 3
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点)
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点) 2
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 4
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 3
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 3
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 4
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 5
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 6
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 7
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 8
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 9
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 10
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
+  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 2
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 3
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点)
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点) 2
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 4
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 3
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 3
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 4
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 5
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 6
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 7
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 8
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 9
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 10
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -470,232 +387,187 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
+  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 2
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 3
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点)
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点) 2
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 4
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 3
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 3
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 4
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 5
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 6
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 7
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 8
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 9
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 10
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
+  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 2
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 3
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点)
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点) 2
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 4
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 3
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 3
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 4
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 5
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 6
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 7
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 8
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 9
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 10
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
+  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 2
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 3
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点)
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点) 2
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 4
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 3
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 3
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 4
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 5
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 6
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 7
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 8
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 9
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 10
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
+  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 2
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 3
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点)
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点) 2
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 4
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 3
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 3
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 4
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 5
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 6
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 7
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 8
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 9
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 10
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   type: select
 - name: 📢 谷歌FCM
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
+  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 2
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 3
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点)
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点) 2
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 4
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 3
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 3
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 4
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 5
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 6
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 7
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 8
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 9
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 10
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -718,47 +590,38 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
+  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 2
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 3
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点)
-  - 🇩🇪 德国(yudou789.top 玉豆免费节点) 2
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点) 4
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点) 3
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点)
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 2
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 3
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 4
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 5
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 6
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 7
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 8
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 9
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 10
-  - 🇸🇬 新加坡(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
