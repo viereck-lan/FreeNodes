@@ -8,15 +8,51 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点)
+  port: 12
+  server: 123
+  skip-cert-verify: true
+  type: socks5
+  udp: true
 - name: 🇭🇰 香港(yudou789.top 玉豆免费节点)
-  port: 11
-  server: 111
+  port: 0
+  server: admin
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+- name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
+  port: 0
+  server: Og=@...
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+- name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
+  port: 0
+  server: T2c9PT@...
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+- name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
+  port: 0
+  server: T2c@...
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+- name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
+  port: 0
+  server: '@...'
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
+  port: 0
+  server: VDJjNj@...
   skip-cert-verify: true
   type: socks5
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
+  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
   port: 800
   server: 47.83.247.150
   skip-cert-verify: true
@@ -24,51 +60,15 @@ proxies:
   type: vmess
   udp: true
   uuid: 59c06976-3009-48d5-89f3-bd94d4a120a0
-- name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
-  port: 0
-  server: admin
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-- name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
+- name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
   port: 0
   server: Og
   skip-cert-verify: true
   type: socks5
   udp: true
-- name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
   port: 0
-  server: T2c9PT@...
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-- name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
-  port: 0
-  server: Og=@...
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-- name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
-  port: 0
-  server: T2c@...
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-- name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
-  port: 0
-  server: '@...'
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点)
-  port: 12
-  server: 123
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-- name: 🇯🇵 日本(yudou789.top 玉豆免费节点)
-  port: 0
-  server: '@...'
+  server: Og
   skip-cert-verify: true
   type: socks5
   udp: true
@@ -78,89 +78,20 @@ proxies:
   skip-cert-verify: true
   type: socks5
   udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
-  port: 0
-  server: Og
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-- name: 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: 🇫🇷 法国(yudou789.top 玉豆免费节点)
+- name: 🇯🇵 日本(yudou789.top 玉豆免费节点)
   port: 0
   server: '@...'
   skip-cert-verify: true
   type: socks5
   udp: true
-- name: 🇬🇧 英国(yudou789.top 玉豆免费节点)
-  port: 1
-  server: N9cyF6jvgy3ZEmCNKe04zBIR
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
-  network: ws
+- name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
+  password: AE62539071
   port: 443
-  server: 185.246.152.159
-  servername: apjhdggyx.com
+  server: strong-haddock.rooster465.autos
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  network: ws
-  port: 443
-  server: 185.246.152.159
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- name: 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
-  port: 0
-  server: '@...'
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  password: ND91608427
-  port: 443
-  server: nearby-egret.rooster465.autos
-  skip-cert-verify: true
+  sni: strong-haddock.rooster465.autos
   type: trojan
   udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.22.63
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
 - name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
   network: ws
   password: humanity
@@ -174,19 +105,19 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
   network: ws
-  port: 23388
-  server: 2001:bc8:32d7:1a9::2
+  password: humanity
+  port: 443
+  server: 104.18.23.63
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
   ws-opts:
-    path: /github.com/Alvin9999-newpac/fanqiang
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
   network: ws
   password: humanity
@@ -200,11 +131,24 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  network: ws
+  port: 23388
+  server: 2001:bc8:32d7:1a9::2
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+  ws-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang
+- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
   network: ws
   password: humanity
   port: 443
-  server: render.com
+  server: 104.18.22.63
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -217,7 +161,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.17.111.3
+  server: 104.18.22.63
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -230,7 +174,137 @@ proxies:
   network: ws
   password: humanity
   port: 443
+  server: 104.17.177.143
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
+  network: ws
+  password: humanity
+  port: 443
+  server: render.com
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.4
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
+  network: ws
+  password: humanity
+  port: 443
+  server: render.com
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
+  network: ws
+  password: humanity
+  port: 443
+  server: 130.250.137.171
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
+  network: ws
+  password: humanity
+  port: 443
   server: 104.17.111.3
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.1
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.4
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.8
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.177.143
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -252,12 +326,27 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
-  port: 0
-  server: '@...'
+- name: 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  password: AE62539071
+  port: 443
+  server: wanted-marmoset.rooster465.autos
   skip-cert-verify: true
-  type: socks5
+  sni: wanted-marmoset.rooster465.autos
+  type: trojan
   udp: true
+- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 3
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.8
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
   network: ws
   password: humanity
@@ -271,123 +360,25 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
-  network: ws
-  password: humanity
+- name: 🇦🇺 澳洲(yudou789.top 玉豆免费节点) 2
+  password: AE62539071
   port: 443
-  server: 104.17.177.143
+  server: humorous-llama.rooster465.autos
   skip-cert-verify: true
-  sni: www.ignitelimit.com
+  sni: humorous-llama.rooster465.autos
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
-  network: ws
-  port: 443
-  server: 5.181.134.24
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.8
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.8
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   port: 0
   server: '@...'
   skip-cert-verify: true
   type: socks5
   udp: true
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.210
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
-  network: ws
-  password: humanity
-  port: 443
-  server: www.ignitelimit.com
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.108
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 18
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.44
+  server: 104.17.111.3
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -400,7 +391,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.73.213
+  server: 104.16.174.36
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -413,7 +404,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.175
+  server: 104.18.152.133
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -426,7 +417,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.152
+  server: 104.16.7.70
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -439,7 +430,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.229
+  server: 104.16.174.37
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -452,7 +443,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.77
+  server: 104.18.152.229
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -465,7 +456,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.103
+  server: 104.18.152.246
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -478,7 +469,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.73.213
+  server: 104.18.152.133
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -491,7 +482,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.246
+  server: www.ignitelimit.com
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -504,7 +495,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 8.6.112.6
+  server: 104.18.152.187
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -517,20 +508,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.72
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
-  network: ws
-  password: humanity
-  port: 443
-  server: 86.38.214.205
+  server: 104.18.152.207
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -543,7 +521,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.187
+  server: 104.18.152.207
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -553,20 +531,16 @@ proxies:
       Host: www.ignitelimit.com
     path: /assignment
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 30
-  network: ws
-  password: humanity
-  port: 443
-  server: www.ignitelimit.com
+  port: 0
+  server: '@...'
   skip-cert-verify: true
-  type: trojan
+  type: socks5
   udp: true
-  ws-opts:
-    path: /assignment
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 31
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.46
+  server: 104.18.152.144
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -579,7 +553,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.108
+  server: 104.16.174.44
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -592,7 +566,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.219
+  server: 104.18.152.225
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -605,7 +579,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.97
+  server: 8.6.112.6
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -618,7 +592,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.34
+  server: 104.18.152.225
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -628,6 +602,19 @@ proxies:
       Host: www.ignitelimit.com
     path: /assignment
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 36
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.46
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 4
   network: ws
   password: humanity
   port: 443
@@ -644,7 +631,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.207
+  server: 198.41.223.96
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -657,6 +644,19 @@ proxies:
   network: ws
   password: humanity
   port: 443
+  server: 104.18.12.149
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 5
+  network: ws
+  password: humanity
+  port: 443
   server: 104.16.174.72
   skip-cert-verify: true
   sni: www.ignitelimit.com
@@ -666,11 +666,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 39
+- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 6
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.50
+  server: 104.16.174.34
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -679,59 +679,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 40
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.210
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 41
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.207
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 42
-  network: ws
-  password: humanity
-  port: 443
-  server: www.speedtest.org
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 43
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.133
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 44
+- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 7
   network: ws
   password: humanity
   port: 443
@@ -744,11 +692,17 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 45
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 39
+  port: 0
+  server: '@...'
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 40
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.37
+  server: 8.6.112.0
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -757,137 +711,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 46
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.225
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 47
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.225
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 48
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.50
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 49
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.229
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 50
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.159
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 51
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.46.3
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.6
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 52
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.187
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 53
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 54
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.12.149
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 55
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 41
   network: ws
   password: humanity
   port: 443
@@ -900,11 +724,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 56
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 42
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.36
+  server: 104.18.152.144
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -913,7 +737,111 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 57
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 43
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 44
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.97.7
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 45
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: assignment
+- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
+  network: ws
+  password: humanity
+  port: 443
+  server: 86.38.214.205
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 46
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.108
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 47
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.121
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 48
+  network: ws
+  password: humanity
+  port: 443
+  server: ip.myip2.qzz.io
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 49
   network: ws
   password: humanity
   port: 443
@@ -926,11 +854,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 58
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 50
   network: ws
   password: humanity
   port: 443
-  server: 172.67.149.60
+  server: 104.16.73.213
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -939,11 +867,37 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 59
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 51
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.175
+  server: 104.18.152.108
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 52
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.229
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 53
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -956,7 +910,85 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.219
+  server: 8.6.112.6
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 54
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 55
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.103
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 56
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.46
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 57
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 58
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.187
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 59
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.159
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -982,7 +1014,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.7.70
+  server: 104.16.174.72
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1008,7 +1040,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 8.6.112.0
+  server: 104.16.73.213
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1021,7 +1053,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.22
+  server: 104.18.152.225
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1029,12 +1061,12 @@ proxies:
   ws-opts:
     headers:
       Host: www.ignitelimit.com
-    path: //assignment
+    path: /assignment
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 65
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.108
+  server: 104.18.12.149
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1047,7 +1079,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.22
+  server: 104.18.152.50
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1055,12 +1087,12 @@ proxies:
   ws-opts:
     headers:
       Host: www.ignitelimit.com
-    path: //assignment
+    path: /assignment
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 67
   network: ws
   password: humanity
   port: 443
-  server: 172.67.149.60
+  server: 104.18.12.149
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1073,7 +1105,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.204
+  server: 104.18.152.159
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1086,7 +1118,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.133
+  server: 104.18.152.77
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1099,7 +1131,20 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.133
+  server: 8.6.112.0
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 8
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.12
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1112,7 +1157,20 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.97
+  server: 104.16.174.22
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: //assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 72
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.72
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1121,11 +1179,24 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 72
+- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 9
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.103
+  server: 104.16.174.14
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 10
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.117
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1138,7 +1209,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.159
+  server: 104.16.174.6
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1151,7 +1222,33 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.46
+  server: 104.18.152.246
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 9
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.155
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 11
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.73
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1164,7 +1261,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: ip.myip2.qzz.io
+  server: 104.16.73.213
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1177,7 +1274,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.121
+  server: 104.16.174.22
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1185,12 +1282,12 @@ proxies:
   ws-opts:
     headers:
       Host: www.ignitelimit.com
-    path: /assignment
+    path: //assignment
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 77
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.144
+  server: 172.67.221.242
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1200,16 +1297,23 @@ proxies:
       Host: www.ignitelimit.com
     path: /assignment
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 78
-  port: 0
-  server: '@...'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.97
   skip-cert-verify: true
-  type: socks5
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 79
   network: ws
   password: humanity
   port: 443
-  server: 8.6.112.0
+  server: 104.18.152.246
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1222,7 +1326,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.246
+  server: 172.67.149.60
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1235,7 +1339,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.26.14.137
+  server: 198.41.223.96
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1248,7 +1352,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 86.38.214.205
+  server: 104.16.174.34
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1261,7 +1365,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.7.70
+  server: 104.18.152.175
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1274,7 +1378,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.246
+  server: 104.18.152.229
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1287,7 +1391,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 198.41.223.96
+  server: 172.67.149.60
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1297,6 +1401,517 @@ proxies:
       Host: www.ignitelimit.com
     path: /assignment
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 86
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.108
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 87
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 88
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 89
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.113
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 90
+  network: ws
+  password: humanity
+  port: 443
+  server: 86.38.214.205
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 91
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 92
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 93
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.207
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 94
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 95
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 96
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.21.46.3
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 97
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.152
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 98
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 99
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.179
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 100
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.103
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 101
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.159
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 102
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.221.242
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 103
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.0
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 104
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.204
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 105
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.97.7
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 106
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.204
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 107
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.50
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 108
+  password: VCWFK+R5XrEp2qnxSaJqZkFUMo9DphDRU/GnoD8HGi4=
+  port: 59319
+  server: 146.235.58.178
+  type: ss
+  udp: true
+- name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  port: 0
+  server: abc123
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 109
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 110
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 111
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 112
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 113
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.7.70
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 114
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.14.137
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 115
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.133
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 116
+  network: ws
+  password: humanity
+  port: 443
+  server: ip.myip2.qzz.io
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 117
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.113
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 118
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.152
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 10
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 119
+  password: WC7Y53q25ImOJmR/KOwzc1Ec77kXtL5Oxm7RR9MeRXo=
+  port: 59319
+  server: 163.176.167.126
+  type: ss
+  udp: true
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 120
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 121
+  network: ws
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 122
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 123
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.97
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 124
+  network: ws
+  password: humanity
+  port: 40443
+  server: 2.144.21.112
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 125
   network: ws
   password: humanity
   port: 2000
@@ -1309,48 +1924,74 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 126
+  network: ws
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 127
+  network: ws
+  port: 8443
+  server: 172.64.80.1
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
-  - 🇬🇧 英国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
   - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 18
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 19
@@ -1363,7 +2004,6 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 26
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 27
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 28
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 29
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 30
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 31
@@ -1372,8 +2012,12 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 34
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 35
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 36
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 37
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 38
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 5
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 6
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 39
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 40
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 41
@@ -1381,22 +2025,23 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 43
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 44
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 45
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 46
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 47
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 48
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 49
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 50
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 51
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 52
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 53
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 54
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 55
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 56
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 57
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 58
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 59
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 60
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 61
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 62
@@ -1408,10 +2053,15 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 68
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 69
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 70
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 71
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 72
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 73
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 74
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 75
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 76
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 77
@@ -1424,47 +2074,88 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 84
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 85
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 86
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 87
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 88
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 89
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 90
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 91
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 92
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 93
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 94
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 95
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 96
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 97
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 98
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 99
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 100
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 101
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 102
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 103
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 104
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 105
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 106
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 107
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 108
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 109
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 110
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 111
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 112
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 113
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 114
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 115
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 116
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 117
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 118
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 10
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 119
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 120
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 121
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 122
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 123
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 124
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 125
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 126
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 127
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
-  - 🇬🇧 英国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
   - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 18
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 19
@@ -1477,7 +2168,6 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 26
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 27
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 28
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 29
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 30
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 31
@@ -1486,8 +2176,12 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 34
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 35
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 36
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 37
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 38
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 5
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 6
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 39
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 40
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 41
@@ -1495,22 +2189,23 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 43
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 44
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 45
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 46
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 47
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 48
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 49
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 50
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 51
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 52
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 53
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 54
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 55
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 56
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 57
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 58
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 59
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 60
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 61
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 62
@@ -1522,10 +2217,15 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 68
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 69
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 70
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 71
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 72
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 73
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 74
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 75
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 76
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 77
@@ -1538,6 +2238,49 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 84
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 85
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 86
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 87
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 88
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 89
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 90
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 91
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 92
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 93
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 94
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 95
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 96
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 97
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 98
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 99
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 100
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 101
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 102
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 103
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 104
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 105
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 106
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 107
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 108
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 109
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 110
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 111
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 112
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 113
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 114
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 115
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 116
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 117
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 118
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 10
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 119
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 120
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 121
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 122
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 123
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 124
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 125
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 126
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 127
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1546,43 +2289,41 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
-  - 🇬🇧 英国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
   - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 18
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 19
@@ -1595,7 +2336,6 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 26
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 27
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 28
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 29
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 30
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 31
@@ -1604,8 +2344,12 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 34
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 35
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 36
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 37
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 38
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 5
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 6
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 39
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 40
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 41
@@ -1613,22 +2357,23 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 43
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 44
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 45
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 46
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 47
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 48
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 49
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 50
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 51
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 52
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 53
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 54
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 55
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 56
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 57
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 58
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 59
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 60
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 61
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 62
@@ -1640,10 +2385,15 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 68
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 69
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 70
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 71
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 72
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 73
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 74
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 75
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 76
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 77
@@ -1656,48 +2406,89 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 84
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 85
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 86
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 87
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 88
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 89
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 90
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 91
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 92
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 93
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 94
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 95
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 96
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 97
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 98
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 99
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 100
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 101
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 102
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 103
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 104
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 105
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 106
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 107
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 108
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 109
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 110
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 111
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 112
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 113
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 114
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 115
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 116
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 117
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 118
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 10
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 119
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 120
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 121
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 122
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 123
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 124
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 125
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 126
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 127
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
-  - 🇬🇧 英国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
   - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 18
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 19
@@ -1710,7 +2501,6 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 26
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 27
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 28
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 29
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 30
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 31
@@ -1719,8 +2509,12 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 34
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 35
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 36
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 37
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 38
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 5
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 6
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 39
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 40
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 41
@@ -1728,22 +2522,23 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 43
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 44
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 45
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 46
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 47
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 48
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 49
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 50
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 51
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 52
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 53
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 54
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 55
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 56
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 57
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 58
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 59
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 60
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 61
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 62
@@ -1755,10 +2550,15 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 68
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 69
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 70
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 71
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 72
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 73
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 74
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 75
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 76
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 77
@@ -1771,48 +2571,89 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 84
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 85
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 86
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 87
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 88
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 89
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 90
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 91
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 92
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 93
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 94
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 95
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 96
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 97
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 98
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 99
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 100
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 101
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 102
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 103
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 104
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 105
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 106
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 107
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 108
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 109
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 110
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 111
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 112
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 113
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 114
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 115
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 116
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 117
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 118
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 10
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 119
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 120
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 121
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 122
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 123
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 124
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 125
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 126
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 127
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
-  - 🇬🇧 英国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
   - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 18
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 19
@@ -1825,7 +2666,6 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 26
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 27
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 28
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 29
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 30
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 31
@@ -1834,8 +2674,12 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 34
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 35
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 36
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 37
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 38
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 5
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 6
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 39
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 40
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 41
@@ -1843,22 +2687,23 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 43
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 44
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 45
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 46
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 47
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 48
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 49
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 50
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 51
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 52
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 53
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 54
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 55
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 56
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 57
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 58
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 59
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 60
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 61
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 62
@@ -1870,10 +2715,15 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 68
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 69
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 70
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 71
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 72
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 73
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 74
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 75
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 76
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 77
@@ -1886,48 +2736,89 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 84
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 85
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 86
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 87
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 88
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 89
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 90
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 91
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 92
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 93
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 94
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 95
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 96
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 97
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 98
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 99
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 100
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 101
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 102
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 103
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 104
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 105
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 106
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 107
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 108
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 109
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 110
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 111
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 112
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 113
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 114
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 115
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 116
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 117
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 118
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 10
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 119
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 120
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 121
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 122
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 123
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 124
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 125
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 126
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 127
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
-  - 🇬🇧 英国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
   - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 18
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 19
@@ -1940,7 +2831,6 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 26
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 27
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 28
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 29
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 30
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 31
@@ -1949,8 +2839,12 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 34
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 35
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 36
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 37
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 38
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 5
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 6
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 39
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 40
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 41
@@ -1958,22 +2852,23 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 43
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 44
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 45
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 46
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 47
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 48
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 49
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 50
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 51
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 52
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 53
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 54
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 55
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 56
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 57
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 58
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 59
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 60
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 61
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 62
@@ -1985,10 +2880,15 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 68
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 69
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 70
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 71
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 72
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 73
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 74
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 75
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 76
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 77
@@ -2001,49 +2901,90 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 84
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 85
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 86
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 87
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 88
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 89
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 90
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 91
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 92
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 93
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 94
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 95
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 96
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 97
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 98
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 99
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 100
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 101
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 102
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 103
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 104
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 105
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 106
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 107
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 108
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 109
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 110
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 111
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 112
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 113
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 114
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 115
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 116
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 117
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 118
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 10
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 119
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 120
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 121
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 122
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 123
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 124
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 125
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 126
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 127
   type: select
 - name: 📢 谷歌FCM
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
-  - 🇬🇧 英国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
   - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 18
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 19
@@ -2056,7 +2997,6 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 26
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 27
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 28
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 29
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 30
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 31
@@ -2065,8 +3005,12 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 34
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 35
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 36
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 37
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 38
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 5
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 6
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 39
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 40
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 41
@@ -2074,22 +3018,23 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 43
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 44
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 45
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 46
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 47
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 48
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 49
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 50
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 51
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 52
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 53
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 54
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 55
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 56
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 57
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 58
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 59
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 60
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 61
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 62
@@ -2101,10 +3046,15 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 68
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 69
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 70
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 71
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 72
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 73
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 74
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 75
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 76
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 77
@@ -2117,6 +3067,49 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 84
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 85
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 86
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 87
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 88
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 89
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 90
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 91
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 92
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 93
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 94
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 95
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 96
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 97
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 98
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 99
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 100
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 101
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 102
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 103
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 104
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 105
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 106
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 107
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 108
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 109
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 110
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 111
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 112
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 113
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 114
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 115
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 116
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 117
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 118
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 10
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 119
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 120
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 121
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 122
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 123
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 124
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 125
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 126
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 127
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -2139,43 +3132,41 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点)
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
   - 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
-  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
-  - 🇯🇵 日本(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
-  - 🇬🇧 英国(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
-  - 🇳🇱 荷兰(yudou789.top 玉豆免费节点)
-  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
+  - 🇰🇷 韩国(yudou789.top 玉豆免费节点)
+  - 🇯🇵 日本(yudou789.top 玉豆免费节点)
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
   - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 8
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 9
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 11
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 2
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 12
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 13
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 14
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 16
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 4
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点)
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
+  - 🇦🇺 澳洲(yudou789.top 玉豆免费节点) 2
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 18
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 19
@@ -2188,7 +3179,6 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 26
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 27
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 28
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 29
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 30
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 31
@@ -2197,8 +3187,12 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 34
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 35
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 36
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 37
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 38
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 5
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 6
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 39
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 40
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 41
@@ -2206,22 +3200,23 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 43
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 44
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 45
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 46
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 47
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 48
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 49
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 50
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 51
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 52
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 53
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 54
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 55
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 56
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 57
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 58
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 59
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 60
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 61
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 62
@@ -2233,10 +3228,15 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 68
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 69
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 70
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 8
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 71
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 72
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 10
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 73
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 74
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 9
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 11
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 75
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 76
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 77
@@ -2249,6 +3249,49 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 84
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 85
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 86
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 87
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 88
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 89
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 90
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 91
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 92
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 93
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 94
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 95
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 96
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 97
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 98
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 99
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 100
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 101
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 102
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 103
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 104
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 105
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 106
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 107
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 108
+  - 🇭🇰 香港(yudou789.top 玉豆免费节点) 8
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 109
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 110
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 111
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 112
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 113
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 114
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 115
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 116
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 117
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 118
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 10
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 119
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 120
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 121
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 122
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 123
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 124
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 125
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 126
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 127
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
