@@ -4,45 +4,6 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 🇫🇷 法国(yudou789.top 玉豆免费节点)
-  network: ws
-  password: humanity
-  port: 443
-  server: render.com
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点)
-  network: ws
-  password: humanity
-  port: 443
-  server: 130.250.137.171
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.22.63
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
   network: ws
   password: humanity
@@ -56,11 +17,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
   network: ws
   password: humanity
   port: 443
-  server: 216.24.57.1
+  server: 130.250.137.171
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -69,11 +30,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
   network: ws
   password: humanity
   port: 443
-  server: 165.215.250.14
+  server: 216.24.57.1
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -95,7 +56,59 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 18
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.22.63
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
+  network: ws
+  password: humanity
+  port: 443
+  server: render.com
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.8
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
   network: ws
   password: humanity
   port: 443
@@ -112,19 +125,6 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.17.177.143
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 21
-  network: ws
-  password: humanity
-  port: 443
   server: 104.17.111.3
   skip-cert-verify: true
   sni: www.ignitelimit.com
@@ -138,20 +138,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.17.111.1
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 3
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.8
+  server: 104.17.177.143
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -164,59 +151,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.12.149
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 24
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.72
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 25
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.179
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 26
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.41.223.96
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 27
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.143
+  server: 104.17.111.1
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -229,20 +164,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.109
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇭🇰 香港(yudou789.top 玉豆免费节点)
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.46
+  server: 104.18.152.103
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -255,7 +177,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.103
+  server: 86.38.214.205
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -264,150 +186,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 31
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 32
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.74.2
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 33
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.187
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 34
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 35
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.155
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 36
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.185
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 37
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.121
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 38
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.175
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 41
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.133
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 44
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.113
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 45
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 46
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 30
   network: ws
   password: humanity
   port: 443
@@ -420,11 +199,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 47
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 31
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.143
+  server: 104.16.174.109
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -433,792 +212,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 48
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 50
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.204
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 51
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 53
-  network: ws
-  password: humanity
-  port: 443
-  server: ip.myip2.qzz.io
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 55
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.46.3
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
-  network: ws
-  password: humanity
-  port: 443
-  server: 86.38.214.205
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 56
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.149.60
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 57
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.149
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 61
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 66
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.26.15.137
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 67
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 69
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.108
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 70
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 72
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.161
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 77
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.26.14.137
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.124
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 81
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.221.242
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 84
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.140
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 86
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.0
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 88
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.152
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 91
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.6
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 96
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.12
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 99
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.22
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: //assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 100
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.44
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 103
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.159
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 9
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.160
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 104
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.34
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 110
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.73.213
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 113
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.101
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 115
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.37
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 123
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.144
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 130
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.22
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 144
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.148
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 158
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.97.7
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_中国香港
-  network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_1
-  port: 443
-  server: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- alterId: 2
-  cipher: auto
-  name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇹🇷_TR_土耳其
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  server: 45.196.201.55
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_中国香港_1
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇹🇷_TR_土耳其_1
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  server: 45.196.201.14
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- alterId: 2
-  cipher: auto
-  name: 🇯🇵_JP_日本->🇺🇸_US_美国
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: none
-  name: 🇨🇳_CN_中国->🇩🇪_DE_德国
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇹🇷_TR_土耳其_2
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  server: 45.196.201.105
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇹🇷_TR_土耳其_3
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  server: 45.196.201.170
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇹🇷_TR_土耳其_4
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  server: 45.196.201.92
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇹🇷_TR_土耳其_5
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  server: 45.196.201.37
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_中国香港_1_2
-  network: ws
-  port: 443
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  ws-opts:
-    path: /ws-vmess
-- client-fingerprint: firefox
-  name: 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国
-  port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-- client-fingerprint: chrome
-  name: 🇺🇸_US_美国->🇫🇮_FI_芬兰
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
-  ws-opts:
-    headers:
-      Host: pan11.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-- client-fingerprint: chrome
-  name: 🇩🇪_DE_德国_1_2
-  network: ws
-  port: 443
-  server: 45.80.111.7
-  servername: 2--ldej--MiTiVPN---MiTiVPN-o.KingNetwork.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
-  ws-opts:
-    headers:
-      Host: De2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_中国香港_2_2
-  network: ws
-  port: 443
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  ws-opts:
-    path: /ws-vmess
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪_DE_德国_2_2
-  port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 159.195.139.217
-  servername: sellflow.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48267e65-8bf0-4046-923f-4ee967009344
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸_US_美国_2
-  port: 993
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  server: 88.218.44.4
-  servername: download.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸_US_美国_1_2
-  port: 443
-  reality-opts:
-    public-key: 6INA8Jxa9oQT3XrW4uXd0leo2upMdUn8s_XbSP0qB3I
-    short-id: f0a9d2b1c7e4f648
-  server: 217.177.75.7
-  servername: usa.tunnelx.space
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇳🇱_NL_荷兰
-  port: 2444
-  reality-opts:
-    public-key: JsSTmS0VKNaHF-_QKYS-_utnS-LJuPOBrWcMbVE2RDA
-    short-id: 0809f782a29a2030
-  server: 31.76.79.118
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc1ee51e-72ec-4af0-ab0f-540c9e22427b
-- name: 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国_1
-  port: 443
-  server: ddc-akn.astralweb.tech
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇩🇪_DE_德国->🇹🇭_TH_泰国
-  network: ws
-  port: 80
-  server: www.true.th
-  servername: d2pwbkmfr5lxa4.cloudfront.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
-  ws-opts:
-    headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
-    path: /
-- name: 🇺🇸_US_美国_2_2
-  network: ws
-  port: 8880
-  server: 104.17.21.32
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 300f44af-adb8-42b7-b869-bef70b205d7e
-  ws-opts:
-    headers:
-      Host: icy-rice-3c1c.340-680.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 32_2
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 32
   network: ws
   password: humanity
   port: 443
@@ -1231,7 +225,20 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 34_2
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 33
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.155
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 34
   network: ws
   password: humanity
   port: 443
@@ -1244,7 +251,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 35_2
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 35
   network: ws
   password: humanity
   port: 443
@@ -1257,11 +264,37 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 36_2
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 36
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.207
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 37
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.34
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 38
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.12.149
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1283,7 +316,228 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 57_2
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 41
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.160
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 42
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.149.60
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 43
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.72
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 44
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.14
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 45
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.0
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 46
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.15.137
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 47
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.152
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.179
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.124
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 49
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 50
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.22
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: //assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 51
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.14.137
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 52
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.159
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 53
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.74.2
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 54
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.73.213
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 55
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.21.46.3
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 56
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 57
   network: ws
   password: humanity
   port: 443
@@ -1296,11 +550,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 65
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 60
   network: ws
   password: humanity
   port: 443
-  server: 176.97.66.175
+  server: 104.16.174.37
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1309,7 +563,59 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 66_2
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 61
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.7.70
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 62
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.41.223.96
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 64
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.140
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 66
   network: ws
   password: humanity
   port: 443
@@ -1322,7 +628,20 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 67_2
+- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 9
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.161
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 67
   network: ws
   password: humanity
   port: 443
@@ -1332,11 +651,63 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 69_2
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 69
   network: ws
   password: humanity
   port: 443
   server: www.speedtest.org
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 73
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.113
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 74
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.221.242
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 75
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 76
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.121
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1358,6 +729,84 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
+- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 6
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 82
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.133
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 84
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.101
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 87
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.185
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 11
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.148
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 90
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.143
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 92
   network: ws
   password: humanity
@@ -1371,7 +820,20 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 96_2
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 95
+  network: ws
+  password: humanity
+  port: 443
+  server: ip.myip2.qzz.io
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 96
   network: ws
   password: humanity
   port: 443
@@ -1384,11 +846,76 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 99_2
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 99
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.210
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 100
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 7
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 105
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.187
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 117
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.97.7
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 121
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.44
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1436,6 +963,19 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 134
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.22
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 136
   network: ws
   password: humanity
@@ -1449,11 +989,306 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 138
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.149
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 142
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.108
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 143
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.46
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 146
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.144
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 149
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.244
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 159
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.204
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 192
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - sjskendn.dingtalk.com
+    path:
+    - /x
+  name: 🇭🇰_HK_中国香港
+  network: http
+  port: 800
+  server: 47.86.167.194
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_HK_中国香港_1
+  network: ws
+  port: 443
+  server: drbkg16egf3fzlm3.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  ws-opts:
+    path: /ws-vmess
+- client-fingerprint: firefox
+  name: 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
+  ws-opts:
+    headers:
+      Host: pan11.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+- client-fingerprint: chrome
+  name: 🇩🇪_DE_德国_1
+  network: ws
+  port: 443
+  server: 45.80.111.7
+  servername: 2--ldej--MiTiVPN---MiTiVPN-o.KingNetwork.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
+  ws-opts:
+    headers:
+      Host: De2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_HK_中国香港_2
+  network: ws
+  port: 443
+  server: m01c7b2z26dtqgee.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  ws-opts:
+    path: /ws-vmess
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪_DE_德国_2
+  port: 8443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 159.195.139.217
+  servername: sellflow.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48267e65-8bf0-4046-923f-4ee967009344
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸_US_美国
+  port: 993
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱_NL_荷兰
+  port: 2444
+  reality-opts:
+    public-key: JsSTmS0VKNaHF-_QKYS-_utnS-LJuPOBrWcMbVE2RDA
+    short-id: 0809f782a29a2030
+  server: 31.76.79.118
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: fc1ee51e-72ec-4af0-ab0f-540c9e22427b
+- name: 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国_1
+  port: 443
+  server: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇩🇪_DE_德国->🇹🇭_TH_泰国
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: d2pwbkmfr5lxa4.cloudfront.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  ws-opts:
+    headers:
+      Host: d2pwbkmfr5lxa4.cloudfront.net
+    path: /
+- name: 🇺🇸_US_美国_2
+  network: ws
+  port: 8880
+  server: 104.17.21.32
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 300f44af-adb8-42b7-b869-bef70b205d7e
+  ws-opts:
+    headers:
+      Host: icy-rice-3c1c.340-680.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_3
+  port: 443
+  server: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- name: 🇫🇷 法国(yudou789.top 玉豆免费节点) 6_2
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 64_2
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: assignment
+- name: 🇺🇸 美国(yudou789.top 玉豆免费节点) 121_2
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.158
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -1484,17 +1319,6 @@ proxies:
   skip-cert-verify: true
   network: tcp
   servername: api-maps.yandex.ru
-  tls: false
-  udp: true
-- type: vless
-  name: 哈薩克_1
-  server: 91.217.10.68
-  port: 443
-  uuid: 0d93b787-b66b-4696-a036-a0f549764f69
-  skip-cert-verify: true
-  network: tcp
-  flow: xtls-rprx-vision
-  servername: kz.fasti.win
   tls: false
   udp: true
 - type: vless
@@ -1560,26 +1384,21 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 18
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 20
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 21
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 22
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 23
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 24
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 25
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 26
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 27
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 28
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 29
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 30
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 31
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 32
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 33
@@ -1588,95 +1407,85 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 36
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 37
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 38
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 39
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 41
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 42
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 43
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 44
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 45
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 46
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 47
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 48
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 49
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 50
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 51
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 52
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 53
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 54
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 55
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 56
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 57
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 60
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 61
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 62
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 64
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 66
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 9
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 67
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 69
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 70
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 72
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 77
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 81
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 73
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 74
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 75
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 76
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 10
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 6
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 82
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 84
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 86
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 88
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 91
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 87
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 11
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 90
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 92
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 95
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 96
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 99
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 100
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 103
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 9
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 104
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 110
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 113
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 115
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 123
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 130
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 144
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 158
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 7
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 105
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 117
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 121
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 122
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 124
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 127
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 134
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 136
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 138
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 142
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 143
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 146
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 149
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 159
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 192
   - 🇭🇰_HK_中国香港
-  - 🇺🇸_US_美国_1
-  - 🇯🇵_JP_日本->🇸🇬_SG_新加坡
-  - 🇹🇷_TR_土耳其
   - 🇭🇰_HK_中国香港_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  - 🇹🇷_TR_土耳其_1
-  - 🇯🇵_JP_日本->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国
-  - 🇹🇷_TR_土耳其_2
-  - 🇹🇷_TR_土耳其_3
-  - 🇹🇷_TR_土耳其_4
-  - 🇹🇷_TR_土耳其_5
-  - 🇭🇰_HK_中国香港_1_2
   - 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国
   - 🇺🇸_US_美国->🇫🇮_FI_芬兰
-  - 🇩🇪_DE_德国_1_2
-  - 🇭🇰_HK_中国香港_2_2
-  - 🇩🇪_DE_德国_2_2
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国_1_2
+  - 🇩🇪_DE_德国_1
+  - 🇭🇰_HK_中国香港_2
+  - 🇩🇪_DE_德国_2
+  - 🇺🇸_US_美国
   - 🇳🇱_NL_荷兰
   - 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国_1
   - 🇨🇳_CN_中国->🇭🇰_HK_中国香港
   - 🇩🇪_DE_德国->🇹🇭_TH_泰国
-  - 🇺🇸_US_美国_2_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 32_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 34_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 35_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 36_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 39
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 57_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 65
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 66_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 67_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 69_2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 10
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 92
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 96_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 99_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 122
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 124
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 127
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 136
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 149
+  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6_2
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 64_2
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 121_2
   - 美國_1
   - 俄羅斯_5
-  - 哈薩克_1
   - 波蘭_5
   - 美國_24
   - 美国_5
@@ -1688,26 +1497,21 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点)
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点)
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 3
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 3
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 4
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 6
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 18
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 7
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点)
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 15
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 17
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 5
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 20
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 21
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 22
-  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 3
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 23
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 24
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 25
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 26
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 27
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 28
-  - 🇭🇰 香港(yudou789.top 玉豆免费节点)
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 29
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 30
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 31
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 32
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 33
@@ -1716,95 +1520,85 @@ proxy-groups:
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 36
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 37
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 38
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 39
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 41
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 42
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 43
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 44
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 45
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 46
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 47
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 48
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 7
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 49
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 50
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 51
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 52
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 53
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 54
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 55
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 56
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 57
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 60
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 61
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 62
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 64
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 66
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 9
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 67
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 69
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 70
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 72
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 77
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 8
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 81
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 73
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 74
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 75
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 76
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 10
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 6
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 82
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 84
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 86
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 88
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 91
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 87
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 11
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 90
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 92
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 95
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 96
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 99
   - 🇺🇸 美国(yudou789.top 玉豆免费节点) 100
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 103
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 9
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 104
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 110
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 113
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 115
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 123
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 130
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 144
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 158
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇦 加拿大(yudou789.top 玉豆免费节点) 7
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 105
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 117
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 121
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 122
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 124
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 127
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 134
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 136
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 138
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 142
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 143
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 146
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 149
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 159
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 192
   - 🇭🇰_HK_中国香港
-  - 🇺🇸_US_美国_1
-  - 🇯🇵_JP_日本->🇸🇬_SG_新加坡
-  - 🇹🇷_TR_土耳其
   - 🇭🇰_HK_中国香港_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  - 🇹🇷_TR_土耳其_1
-  - 🇯🇵_JP_日本->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国
-  - 🇹🇷_TR_土耳其_2
-  - 🇹🇷_TR_土耳其_3
-  - 🇹🇷_TR_土耳其_4
-  - 🇹🇷_TR_土耳其_5
-  - 🇭🇰_HK_中国香港_1_2
   - 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国
   - 🇺🇸_US_美国->🇫🇮_FI_芬兰
-  - 🇩🇪_DE_德国_1_2
-  - 🇭🇰_HK_中国香港_2_2
-  - 🇩🇪_DE_德国_2_2
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国_1_2
+  - 🇩🇪_DE_德国_1
+  - 🇭🇰_HK_中国香港_2
+  - 🇩🇪_DE_德国_2
+  - 🇺🇸_US_美国
   - 🇳🇱_NL_荷兰
   - 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国_1
   - 🇨🇳_CN_中国->🇭🇰_HK_中国香港
   - 🇩🇪_DE_德国->🇹🇭_TH_泰国
-  - 🇺🇸_US_美国_2_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 32_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 34_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 35_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 36_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 39
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 57_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 65
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 66_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 67_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 69_2
-  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 10
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 92
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 96_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 99_2
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 122
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 124
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 127
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 136
-  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 149
+  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇫🇷 法国(yudou789.top 玉豆免费节点) 6_2
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 64_2
+  - 🇺🇸 美国(yudou789.top 玉豆免费节点) 121_2
   - 美國_1
   - 俄羅斯_5
-  - 哈薩克_1
   - 波蘭_5
   - 美國_24
   - 美国_5
